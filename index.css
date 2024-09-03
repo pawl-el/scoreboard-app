@@ -1,0 +1,69 @@
+html, body {
+    /* whole background */
+    background: #F26157;
+    font-family: "Oxanium", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.sign-container {
+    /* HOME and GUEST text styling */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 53px 0px 53px;
+    font-size: 25px;
+}
+
+.score-container {
+    /* styling for the bg of scores */
+    display: flex;
+    justify-content: space-around;
+    margin: -50px 30px 0px 30px;
+    font-size: 50px;
+}
+
+.home-score, .guest-score {
+    /* styling for bg of scores */
+    background: #582630;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 18px 0px 18px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+.scorebtn-container {
+    /* styling for the buttons */
+    display: flex;
+    justify-content: space-around;
+    margin: -35px 30px 0px 30px;
+}
+
+.scorebtn {
+    /* button styling */
+    font-family: "Oxanium", sans-serif;
+    background: #f1a66a;
+    padding: 15px;
+    border: #f7ee7f solid 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    font-family: "Oxanium", sans-serif;
+    background: #f1a66a;
+    padding: 20px;
+    border: #f7ee7f solid 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+

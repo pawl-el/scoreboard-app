@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="sign-container">
+                <h1>HOME</h1>
+                <h1>GUEST</h1>
+            </div>
+            <div class="score-container">
+                <h1 class="home-score" id="home-display">0</h1>
+                <h1 class="guest-score" id="guest-display">0</h1>
+            </div>
+            <div class="scorebtn-container">
+                <div class="homebtn-container">
+                    <button class="scorebtn" id="homebtn-1" onclick="add1()">+1</button>
+                    <button class="scorebtn" id="homebtn-2" onclick="add2()">+2</button>
+                    <button class="scorebtn" id="homebtn-3" onclick="add3()">+3</button>
+                </div>
+                <div class="guestbtn-container">
+                    <button class="scorebtn" id="guestbtn-1" onclick="gadd1()">+1</button>
+                    <button class="scorebtn" id="guestbtn-2" onclick="gadd2()">+2</button>
+                    <button class="scorebtn" id="guestbtn-3" onclick="gadd3()">+3</button>
+                </div>
+            </div>
+            <button class="reset" onclick="resetButton()">NEW GAME</button>
+            <script src="index.js" defer></script>
+        </body>
+    </html>
